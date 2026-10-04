@@ -1,0 +1,1613 @@
+{
+  "schemaVersion": 1,
+  "region": "United Kingdom",
+  "generatedAt": "2026-10-04T15:41:51.612452+00:00",
+  "sourceDate": "2026-10-03T20:20:50Z",
+  "source": {
+    "name": "OpenStreetMap via Geofabrik",
+    "url": "https://download.geofabrik.de/europe/united-kingdom-261003.osm.pbf",
+    "license": "ODbL-1.0",
+    "attribution": "\u00a9 OpenStreetMap contributors",
+    "md5": "401295181b876998d357c9588f659472",
+    "bytes": 2265276940
+  },
+  "nodes": 8681452,
+  "edges": 18247994,
+  "geometries": 9526414,
+  "roadCount": 516177,
+  "placeCount": 43203,
+  "restrictionCount": 30088,
+  "bounds": [
+    -8.585401,
+    49.888612,
+    1.762181,
+    60.834999
+  ],
+  "graphBytes": 450889314,
+  "sections": [
+    {
+      "name": "lat",
+      "type": "Int32",
+      "count": 8681452,
+      "byteOffset": 0,
+      "byteLength": 34725808
+    },
+    {
+      "name": "lon",
+      "type": "Int32",
+      "count": 8681452,
+      "byteOffset": 34725808,
+      "byteLength": 34725808
+    },
+    {
+      "name": "offsets",
+      "type": "Uint32",
+      "count": 8681453,
+      "byteOffset": 69451616,
+      "byteLength": 34725812
+    },
+    {
+      "name": "targets",
+      "type": "Uint32",
+      "count": 18247994,
+      "byteOffset": 104177428,
+      "byteLength": 72991976
+    },
+    {
+      "name": "lengths",
+      "type": "Float32",
+      "count": 18247994,
+      "byteOffset": 177169404,
+      "byteLength": 72991976
+    },
+    {
+      "name": "limits",
+      "type": "Uint16",
+      "count": 18247994,
+      "byteOffset": 250161380,
+      "byteLength": 36495988
+    },
+    {
+      "name": "roads",
+      "type": "Uint32",
+      "count": 18247994,
+      "byteOffset": 286657368,
+      "byteLength": 72991976
+    },
+    {
+      "name": "geometryRefs",
+      "type": "Uint32",
+      "count": 18247994,
+      "byteOffset": 359649344,
+      "byteLength": 72991976
+    },
+    {
+      "name": "flags",
+      "type": "Uint8",
+      "count": 18247994,
+      "byteOffset": 432641320,
+      "byteLength": 18247994
+    }
+  ],
+  "graphChunks": [
+    {
+      "file": "graph-000.791369ead8359c72.bin.gz",
+      "byteOffset": 0,
+      "byteLength": 16777216,
+      "compressedBytes": 11742788
+    },
+    {
+      "file": "graph-001.033200cde9a21124.bin.gz",
+      "byteOffset": 16777216,
+      "byteLength": 16777216,
+      "compressedBytes": 12379630
+    },
+    {
+      "file": "graph-002.385ed552cfb29d6a.bin.gz",
+      "byteOffset": 33554432,
+      "byteLength": 16777216,
+      "compressedBytes": 12478507
+    },
+    {
+      "file": "graph-003.5a9b21714d754bdf.bin.gz",
+      "byteOffset": 50331648,
+      "byteLength": 16777216,
+      "compressedBytes": 13079920
+    },
+    {
+      "file": "graph-004.14b2de1257ab45a3.bin.gz",
+      "byteOffset": 67108864,
+      "byteLength": 16777216,
+      "compressedBytes": 6824188
+    },
+    {
+      "file": "graph-005.267fc72b25c36e53.bin.gz",
+      "byteOffset": 83886080,
+      "byteLength": 16777216,
+      "compressedBytes": 5832919
+    },
+    {
+      "file": "graph-006.dd1cb85730fa0f3c.bin.gz",
+      "byteOffset": 100663296,
+      "byteLength": 16777216,
+      "compressedBytes": 8001841
+    },
+    {
+      "file": "graph-007.173b233c8d3b6882.bin.gz",
+      "byteOffset": 117440512,
+      "byteLength": 16777216,
+      "compressedBytes": 8483338
+    },
+    {
+      "file": "graph-008.cf7abb254d563c2e.bin.gz",
+      "byteOffset": 134217728,
+      "byteLength": 16777216,
+      "compressedBytes": 8724242
+    },
+    {
+      "file": "graph-009.9f2361daee4b2c42.bin.gz",
+      "byteOffset": 150994944,
+      "byteLength": 16777216,
+      "compressedBytes": 9053938
+    },
+    {
+      "file": "graph-010.25be6f961b495e5d.bin.gz",
+      "byteOffset": 167772160,
+      "byteLength": 16777216,
+      "compressedBytes": 10515690
+    },
+    {
+      "file": "graph-011.ae7d799fbf7d0b02.bin.gz",
+      "byteOffset": 184549376,
+      "byteLength": 16777216,
+      "compressedBytes": 11643539
+    },
+    {
+      "file": "graph-012.32c48e353a78aa28.bin.gz",
+      "byteOffset": 201326592,
+      "byteLength": 16777216,
+      "compressedBytes": 11695670
+    },
+    {
+      "file": "graph-013.829445f7e18beb33.bin.gz",
+      "byteOffset": 218103808,
+      "byteLength": 16777216,
+      "compressedBytes": 11727553
+    },
+    {
+      "file": "graph-014.cbdf2e5b18bc5f59.bin.gz",
+      "byteOffset": 234881024,
+      "byteLength": 16777216,
+      "compressedBytes": 11348329
+    },
+    {
+      "file": "graph-015.c0bc52b792730efd.bin.gz",
+      "byteOffset": 251658240,
+      "byteLength": 16777216,
+      "compressedBytes": 1151301
+    },
+    {
+      "file": "graph-016.e17232640b798c07.bin.gz",
+      "byteOffset": 268435456,
+      "byteLength": 16777216,
+      "compressedBytes": 1185401
+    },
+    {
+      "file": "graph-017.0b10950c9b6715aa.bin.gz",
+      "byteOffset": 285212672,
+      "byteLength": 16777216,
+      "compressedBytes": 3785053
+    },
+    {
+      "file": "graph-018.8bc1b9cabd73e7f6.bin.gz",
+      "byteOffset": 301989888,
+      "byteLength": 16777216,
+      "compressedBytes": 3843644
+    },
+    {
+      "file": "graph-019.1a9db042fc6845bc.bin.gz",
+      "byteOffset": 318767104,
+      "byteLength": 16777216,
+      "compressedBytes": 2957708
+    },
+    {
+      "file": "graph-020.221b7938ef106c11.bin.gz",
+      "byteOffset": 335544320,
+      "byteLength": 16777216,
+      "compressedBytes": 1934334
+    },
+    {
+      "file": "graph-021.aa88114884d94b81.bin.gz",
+      "byteOffset": 352321536,
+      "byteLength": 16777216,
+      "compressedBytes": 6257269
+    },
+    {
+      "file": "graph-022.6fbf5474a32797c1.bin.gz",
+      "byteOffset": 369098752,
+      "byteLength": 16777216,
+      "compressedBytes": 9062224
+    },
+    {
+      "file": "graph-023.1612d1cfdd35f966.bin.gz",
+      "byteOffset": 385875968,
+      "byteLength": 16777216,
+      "compressedBytes": 8859591
+    },
+    {
+      "file": "graph-024.0c77723a91b1064b.bin.gz",
+      "byteOffset": 402653184,
+      "byteLength": 16777216,
+      "compressedBytes": 8319480
+    },
+    {
+      "file": "graph-025.b71c9cecc91b5ff2.bin.gz",
+      "byteOffset": 419430400,
+      "byteLength": 16777216,
+      "compressedBytes": 6310460
+    },
+    {
+      "file": "graph-026.8061bd7a77d7f8b2.bin.gz",
+      "byteOffset": 436207616,
+      "byteLength": 14681698,
+      "compressedBytes": 1208126
+    }
+  ],
+  "roadsFile": "roads.0b6da3da19c7b4ae.json.gz",
+  "placesFile": "places.b20e3b72ab0ed0ce.json.gz",
+  "restrictionsFile": "restrictions.febe788ef6f56419.json.gz",
+  "geometryChunks": [
+    {
+      "file": "geometry-000.197832ea9aea965f.bin.gz",
+      "start": 0,
+      "count": 50000,
+      "byteLength": 1884452,
+      "compressedBytes": 914248
+    },
+    {
+      "file": "geometry-001.67438f54d9f69e9d.bin.gz",
+      "start": 50000,
+      "count": 50000,
+      "byteLength": 1949884,
+      "compressedBytes": 945734
+    },
+    {
+      "file": "geometry-002.0cd62dee60d77eba.bin.gz",
+      "start": 100000,
+      "count": 50000,
+      "byteLength": 1925828,
+      "compressedBytes": 936672
+    },
+    {
+      "file": "geometry-003.2f155fb0ad3514a6.bin.gz",
+      "start": 150000,
+      "count": 50000,
+      "byteLength": 1851508,
+      "compressedBytes": 886643
+    },
+    {
+      "file": "geometry-004.0d6c909a5e2595bd.bin.gz",
+      "start": 200000,
+      "count": 50000,
+      "byteLength": 1872140,
+      "compressedBytes": 893319
+    },
+    {
+      "file": "geometry-005.20a079252b1db9c8.bin.gz",
+      "start": 250000,
+      "count": 50000,
+      "byteLength": 1890524,
+      "compressedBytes": 913866
+    },
+    {
+      "file": "geometry-006.28db026b2e4ad07e.bin.gz",
+      "start": 300000,
+      "count": 50000,
+      "byteLength": 1885460,
+      "compressedBytes": 912748
+    },
+    {
+      "file": "geometry-007.090e166bd9e84556.bin.gz",
+      "start": 350000,
+      "count": 50000,
+      "byteLength": 1891204,
+      "compressedBytes": 891745
+    },
+    {
+      "file": "geometry-008.23f4b8c27f108f24.bin.gz",
+      "start": 400000,
+      "count": 50000,
+      "byteLength": 1904612,
+      "compressedBytes": 908613
+    },
+    {
+      "file": "geometry-009.983d53074167efcd.bin.gz",
+      "start": 450000,
+      "count": 50000,
+      "byteLength": 1914636,
+      "compressedBytes": 906323
+    },
+    {
+      "file": "geometry-010.5f5d8510555f1cda.bin.gz",
+      "start": 500000,
+      "count": 50000,
+      "byteLength": 1815540,
+      "compressedBytes": 884992
+    },
+    {
+      "file": "geometry-011.6156025632118918.bin.gz",
+      "start": 550000,
+      "count": 50000,
+      "byteLength": 1872364,
+      "compressedBytes": 898000
+    },
+    {
+      "file": "geometry-012.b3d6b66cbee63587.bin.gz",
+      "start": 600000,
+      "count": 50000,
+      "byteLength": 1910132,
+      "compressedBytes": 916736
+    },
+    {
+      "file": "geometry-013.2189f3c56c97aa68.bin.gz",
+      "start": 650000,
+      "count": 50000,
+      "byteLength": 1925188,
+      "compressedBytes": 913583
+    },
+    {
+      "file": "geometry-014.adeb273985491fa2.bin.gz",
+      "start": 700000,
+      "count": 50000,
+      "byteLength": 1928404,
+      "compressedBytes": 921161
+    },
+    {
+      "file": "geometry-015.a144a1692045d7a6.bin.gz",
+      "start": 750000,
+      "count": 50000,
+      "byteLength": 1901604,
+      "compressedBytes": 919682
+    },
+    {
+      "file": "geometry-016.913d9da7fd201045.bin.gz",
+      "start": 800000,
+      "count": 50000,
+      "byteLength": 1895004,
+      "compressedBytes": 905757
+    },
+    {
+      "file": "geometry-017.d6a39e4314c737a1.bin.gz",
+      "start": 850000,
+      "count": 50000,
+      "byteLength": 2024460,
+      "compressedBytes": 1004461
+    },
+    {
+      "file": "geometry-018.e5595278b2f7610a.bin.gz",
+      "start": 900000,
+      "count": 50000,
+      "byteLength": 1978100,
+      "compressedBytes": 965410
+    },
+    {
+      "file": "geometry-019.0ee516c5a481908f.bin.gz",
+      "start": 950000,
+      "count": 50000,
+      "byteLength": 1955988,
+      "compressedBytes": 935930
+    },
+    {
+      "file": "geometry-020.9620d3d5e8cf44c6.bin.gz",
+      "start": 1000000,
+      "count": 50000,
+      "byteLength": 1935964,
+      "compressedBytes": 936225
+    },
+    {
+      "file": "geometry-021.ae079482a8ac7c84.bin.gz",
+      "start": 1050000,
+      "count": 50000,
+      "byteLength": 1924916,
+      "compressedBytes": 941974
+    },
+    {
+      "file": "geometry-022.138a1541ad8fa78c.bin.gz",
+      "start": 1100000,
+      "count": 50000,
+      "byteLength": 1924236,
+      "compressedBytes": 939953
+    },
+    {
+      "file": "geometry-023.a06516cc9278f2ee.bin.gz",
+      "start": 1150000,
+      "count": 50000,
+      "byteLength": 1967212,
+      "compressedBytes": 967646
+    },
+    {
+      "file": "geometry-024.130ad2d875e22569.bin.gz",
+      "start": 1200000,
+      "count": 50000,
+      "byteLength": 1905468,
+      "compressedBytes": 929417
+    },
+    {
+      "file": "geometry-025.5ed9993bdc553d0f.bin.gz",
+      "start": 1250000,
+      "count": 50000,
+      "byteLength": 1928228,
+      "compressedBytes": 937078
+    },
+    {
+      "file": "geometry-026.dabb890dd252a566.bin.gz",
+      "start": 1300000,
+      "count": 50000,
+      "byteLength": 1962668,
+      "compressedBytes": 956447
+    },
+    {
+      "file": "geometry-027.6abe1421d3158511.bin.gz",
+      "start": 1350000,
+      "count": 50000,
+      "byteLength": 1926092,
+      "compressedBytes": 936752
+    },
+    {
+      "file": "geometry-028.93d7e218f7fb5204.bin.gz",
+      "start": 1400000,
+      "count": 50000,
+      "byteLength": 1955268,
+      "compressedBytes": 962135
+    },
+    {
+      "file": "geometry-029.f7911478eb698547.bin.gz",
+      "start": 1450000,
+      "count": 50000,
+      "byteLength": 2033524,
+      "compressedBytes": 998250
+    },
+    {
+      "file": "geometry-030.b7e9c4018d61ee6b.bin.gz",
+      "start": 1500000,
+      "count": 50000,
+      "byteLength": 1937708,
+      "compressedBytes": 947844
+    },
+    {
+      "file": "geometry-031.9d68a29d6a094d22.bin.gz",
+      "start": 1550000,
+      "count": 50000,
+      "byteLength": 1861660,
+      "compressedBytes": 908894
+    },
+    {
+      "file": "geometry-032.27fe9992ecdc038a.bin.gz",
+      "start": 1600000,
+      "count": 50000,
+      "byteLength": 1929844,
+      "compressedBytes": 958517
+    },
+    {
+      "file": "geometry-033.05b97b71f087b388.bin.gz",
+      "start": 1650000,
+      "count": 50000,
+      "byteLength": 1963604,
+      "compressedBytes": 969719
+    },
+    {
+      "file": "geometry-034.5cf19c9dc6840483.bin.gz",
+      "start": 1700000,
+      "count": 50000,
+      "byteLength": 1866020,
+      "compressedBytes": 908123
+    },
+    {
+      "file": "geometry-035.0f66f5e567fec515.bin.gz",
+      "start": 1750000,
+      "count": 50000,
+      "byteLength": 1909500,
+      "compressedBytes": 940292
+    },
+    {
+      "file": "geometry-036.459480d476795d6c.bin.gz",
+      "start": 1800000,
+      "count": 50000,
+      "byteLength": 1950340,
+      "compressedBytes": 961540
+    },
+    {
+      "file": "geometry-037.b31185aa1db476d1.bin.gz",
+      "start": 1850000,
+      "count": 50000,
+      "byteLength": 1833684,
+      "compressedBytes": 872296
+    },
+    {
+      "file": "geometry-038.9539a88838817ba0.bin.gz",
+      "start": 1900000,
+      "count": 50000,
+      "byteLength": 1893132,
+      "compressedBytes": 922351
+    },
+    {
+      "file": "geometry-039.a6b803e123116a46.bin.gz",
+      "start": 1950000,
+      "count": 50000,
+      "byteLength": 1868076,
+      "compressedBytes": 911149
+    },
+    {
+      "file": "geometry-040.142dbacce66bae7b.bin.gz",
+      "start": 2000000,
+      "count": 50000,
+      "byteLength": 1896332,
+      "compressedBytes": 928070
+    },
+    {
+      "file": "geometry-041.498890055ba96100.bin.gz",
+      "start": 2050000,
+      "count": 50000,
+      "byteLength": 1909900,
+      "compressedBytes": 952404
+    },
+    {
+      "file": "geometry-042.5856f3a1a34a9a6e.bin.gz",
+      "start": 2100000,
+      "count": 50000,
+      "byteLength": 1900188,
+      "compressedBytes": 946187
+    },
+    {
+      "file": "geometry-043.8b99b92b861b5c57.bin.gz",
+      "start": 2150000,
+      "count": 50000,
+      "byteLength": 1928660,
+      "compressedBytes": 965561
+    },
+    {
+      "file": "geometry-044.edc950748f1555db.bin.gz",
+      "start": 2200000,
+      "count": 50000,
+      "byteLength": 1880924,
+      "compressedBytes": 932887
+    },
+    {
+      "file": "geometry-045.db4c6b083d531e33.bin.gz",
+      "start": 2250000,
+      "count": 50000,
+      "byteLength": 1877380,
+      "compressedBytes": 923802
+    },
+    {
+      "file": "geometry-046.e1b07059b6d271a6.bin.gz",
+      "start": 2300000,
+      "count": 50000,
+      "byteLength": 1909588,
+      "compressedBytes": 926516
+    },
+    {
+      "file": "geometry-047.c55b923351d7cac2.bin.gz",
+      "start": 2350000,
+      "count": 50000,
+      "byteLength": 1823252,
+      "compressedBytes": 883762
+    },
+    {
+      "file": "geometry-048.354c45211383de9f.bin.gz",
+      "start": 2400000,
+      "count": 50000,
+      "byteLength": 1835556,
+      "compressedBytes": 885907
+    },
+    {
+      "file": "geometry-049.ecb6309ce0f9918b.bin.gz",
+      "start": 2450000,
+      "count": 50000,
+      "byteLength": 1881460,
+      "compressedBytes": 918056
+    },
+    {
+      "file": "geometry-050.23609043f5d0ab75.bin.gz",
+      "start": 2500000,
+      "count": 50000,
+      "byteLength": 1927332,
+      "compressedBytes": 957938
+    },
+    {
+      "file": "geometry-051.b305830d8f8362a2.bin.gz",
+      "start": 2550000,
+      "count": 50000,
+      "byteLength": 1873548,
+      "compressedBytes": 916323
+    },
+    {
+      "file": "geometry-052.9ea0af0b735a5ec5.bin.gz",
+      "start": 2600000,
+      "count": 50000,
+      "byteLength": 1807764,
+      "compressedBytes": 871313
+    },
+    {
+      "file": "geometry-053.1c88266ecf237969.bin.gz",
+      "start": 2650000,
+      "count": 50000,
+      "byteLength": 1888932,
+      "compressedBytes": 922655
+    },
+    {
+      "file": "geometry-054.7ae12484062f8073.bin.gz",
+      "start": 2700000,
+      "count": 50000,
+      "byteLength": 1916308,
+      "compressedBytes": 943587
+    },
+    {
+      "file": "geometry-055.ca5896bcde44d8a0.bin.gz",
+      "start": 2750000,
+      "count": 50000,
+      "byteLength": 1876252,
+      "compressedBytes": 923895
+    },
+    {
+      "file": "geometry-056.8c2cf3238bc9edbe.bin.gz",
+      "start": 2800000,
+      "count": 50000,
+      "byteLength": 1886124,
+      "compressedBytes": 920477
+    },
+    {
+      "file": "geometry-057.71bdfc33fae0e122.bin.gz",
+      "start": 2850000,
+      "count": 50000,
+      "byteLength": 1943700,
+      "compressedBytes": 947200
+    },
+    {
+      "file": "geometry-058.89178c109dfa0c09.bin.gz",
+      "start": 2900000,
+      "count": 50000,
+      "byteLength": 1869076,
+      "compressedBytes": 920662
+    },
+    {
+      "file": "geometry-059.12de35375cc86cbe.bin.gz",
+      "start": 2950000,
+      "count": 50000,
+      "byteLength": 1893972,
+      "compressedBytes": 934998
+    },
+    {
+      "file": "geometry-060.07b694d5630defc2.bin.gz",
+      "start": 3000000,
+      "count": 50000,
+      "byteLength": 1929076,
+      "compressedBytes": 968998
+    },
+    {
+      "file": "geometry-061.ffba27e2aa304544.bin.gz",
+      "start": 3050000,
+      "count": 50000,
+      "byteLength": 1956676,
+      "compressedBytes": 975156
+    },
+    {
+      "file": "geometry-062.cb742d4c72abc26f.bin.gz",
+      "start": 3100000,
+      "count": 50000,
+      "byteLength": 1951548,
+      "compressedBytes": 977941
+    },
+    {
+      "file": "geometry-063.93bb5db4d7a52662.bin.gz",
+      "start": 3150000,
+      "count": 50000,
+      "byteLength": 1907644,
+      "compressedBytes": 960162
+    },
+    {
+      "file": "geometry-064.367c51c88e798d7e.bin.gz",
+      "start": 3200000,
+      "count": 50000,
+      "byteLength": 1853612,
+      "compressedBytes": 927681
+    },
+    {
+      "file": "geometry-065.934f9004d8495ba7.bin.gz",
+      "start": 3250000,
+      "count": 50000,
+      "byteLength": 2026260,
+      "compressedBytes": 1026216
+    },
+    {
+      "file": "geometry-066.f225aa26b9b5bd1c.bin.gz",
+      "start": 3300000,
+      "count": 50000,
+      "byteLength": 2004188,
+      "compressedBytes": 1013083
+    },
+    {
+      "file": "geometry-067.12ac38df15420688.bin.gz",
+      "start": 3350000,
+      "count": 50000,
+      "byteLength": 2034252,
+      "compressedBytes": 1041372
+    },
+    {
+      "file": "geometry-068.4c3aa575cfe34e0d.bin.gz",
+      "start": 3400000,
+      "count": 50000,
+      "byteLength": 2006356,
+      "compressedBytes": 1016148
+    },
+    {
+      "file": "geometry-069.d63bb5a576c3090a.bin.gz",
+      "start": 3450000,
+      "count": 50000,
+      "byteLength": 2068572,
+      "compressedBytes": 1052256
+    },
+    {
+      "file": "geometry-070.b1b2843bf3517d97.bin.gz",
+      "start": 3500000,
+      "count": 50000,
+      "byteLength": 1990532,
+      "compressedBytes": 1004255
+    },
+    {
+      "file": "geometry-071.445b82495e81566d.bin.gz",
+      "start": 3550000,
+      "count": 50000,
+      "byteLength": 2031244,
+      "compressedBytes": 1034605
+    },
+    {
+      "file": "geometry-072.9b1cec555140552e.bin.gz",
+      "start": 3600000,
+      "count": 50000,
+      "byteLength": 2076468,
+      "compressedBytes": 1065528
+    },
+    {
+      "file": "geometry-073.42468c541367aea7.bin.gz",
+      "start": 3650000,
+      "count": 50000,
+      "byteLength": 2039340,
+      "compressedBytes": 1052061
+    },
+    {
+      "file": "geometry-074.1c301950df938f2a.bin.gz",
+      "start": 3700000,
+      "count": 50000,
+      "byteLength": 2008628,
+      "compressedBytes": 1026985
+    },
+    {
+      "file": "geometry-075.64da499f91c7606c.bin.gz",
+      "start": 3750000,
+      "count": 50000,
+      "byteLength": 2069596,
+      "compressedBytes": 1064479
+    },
+    {
+      "file": "geometry-076.1ffc5a75df51f7f3.bin.gz",
+      "start": 3800000,
+      "count": 50000,
+      "byteLength": 2044508,
+      "compressedBytes": 1052515
+    },
+    {
+      "file": "geometry-077.9c8e553497fe92b6.bin.gz",
+      "start": 3850000,
+      "count": 50000,
+      "byteLength": 2146004,
+      "compressedBytes": 1091093
+    },
+    {
+      "file": "geometry-078.17d731f6fddd133f.bin.gz",
+      "start": 3900000,
+      "count": 50000,
+      "byteLength": 2157396,
+      "compressedBytes": 1089620
+    },
+    {
+      "file": "geometry-079.cc61970a5ed5f9cd.bin.gz",
+      "start": 3950000,
+      "count": 50000,
+      "byteLength": 2044436,
+      "compressedBytes": 1029499
+    },
+    {
+      "file": "geometry-080.5b8037b6e4d8754e.bin.gz",
+      "start": 4000000,
+      "count": 50000,
+      "byteLength": 1966668,
+      "compressedBytes": 971747
+    },
+    {
+      "file": "geometry-081.ca3cc361208a3c1e.bin.gz",
+      "start": 4050000,
+      "count": 50000,
+      "byteLength": 1943884,
+      "compressedBytes": 967892
+    },
+    {
+      "file": "geometry-082.86b5c384192c4646.bin.gz",
+      "start": 4100000,
+      "count": 50000,
+      "byteLength": 2080036,
+      "compressedBytes": 1058728
+    },
+    {
+      "file": "geometry-083.1d4f52b7e74784ec.bin.gz",
+      "start": 4150000,
+      "count": 50000,
+      "byteLength": 2033780,
+      "compressedBytes": 1039725
+    },
+    {
+      "file": "geometry-084.07eabb7e663be4de.bin.gz",
+      "start": 4200000,
+      "count": 50000,
+      "byteLength": 1976412,
+      "compressedBytes": 1004294
+    },
+    {
+      "file": "geometry-085.360c0514a8db5ef9.bin.gz",
+      "start": 4250000,
+      "count": 50000,
+      "byteLength": 2004460,
+      "compressedBytes": 1033336
+    },
+    {
+      "file": "geometry-086.699c2e3c5d085996.bin.gz",
+      "start": 4300000,
+      "count": 50000,
+      "byteLength": 2104508,
+      "compressedBytes": 1086232
+    },
+    {
+      "file": "geometry-087.c30ae84ed00b5dae.bin.gz",
+      "start": 4350000,
+      "count": 50000,
+      "byteLength": 2028636,
+      "compressedBytes": 1042894
+    },
+    {
+      "file": "geometry-088.70f2f9c36aa26211.bin.gz",
+      "start": 4400000,
+      "count": 50000,
+      "byteLength": 2017436,
+      "compressedBytes": 1032123
+    },
+    {
+      "file": "geometry-089.2b91abc9fc8f3b0f.bin.gz",
+      "start": 4450000,
+      "count": 50000,
+      "byteLength": 2005244,
+      "compressedBytes": 1038443
+    },
+    {
+      "file": "geometry-090.79add1f7967a31ee.bin.gz",
+      "start": 4500000,
+      "count": 50000,
+      "byteLength": 2062724,
+      "compressedBytes": 1070048
+    },
+    {
+      "file": "geometry-091.94b79c333733921a.bin.gz",
+      "start": 4550000,
+      "count": 50000,
+      "byteLength": 2079852,
+      "compressedBytes": 1073769
+    },
+    {
+      "file": "geometry-092.d24376fc9c41a556.bin.gz",
+      "start": 4600000,
+      "count": 50000,
+      "byteLength": 2143428,
+      "compressedBytes": 1114648
+    },
+    {
+      "file": "geometry-093.5879883bf0ccb925.bin.gz",
+      "start": 4650000,
+      "count": 50000,
+      "byteLength": 2095348,
+      "compressedBytes": 1090966
+    },
+    {
+      "file": "geometry-094.638ef7381dbcc6b4.bin.gz",
+      "start": 4700000,
+      "count": 50000,
+      "byteLength": 1979004,
+      "compressedBytes": 1026288
+    },
+    {
+      "file": "geometry-095.fafe7be50e02feff.bin.gz",
+      "start": 4750000,
+      "count": 50000,
+      "byteLength": 2079140,
+      "compressedBytes": 1083368
+    },
+    {
+      "file": "geometry-096.c54872482a3d3120.bin.gz",
+      "start": 4800000,
+      "count": 50000,
+      "byteLength": 2182812,
+      "compressedBytes": 1137921
+    },
+    {
+      "file": "geometry-097.934d26533be1c799.bin.gz",
+      "start": 4850000,
+      "count": 50000,
+      "byteLength": 2206020,
+      "compressedBytes": 1148419
+    },
+    {
+      "file": "geometry-098.ed69ff32e614b1b4.bin.gz",
+      "start": 4900000,
+      "count": 50000,
+      "byteLength": 2088900,
+      "compressedBytes": 1075524
+    },
+    {
+      "file": "geometry-099.fd0c2380815e8fe3.bin.gz",
+      "start": 4950000,
+      "count": 50000,
+      "byteLength": 2061164,
+      "compressedBytes": 1067087
+    },
+    {
+      "file": "geometry-100.95f54c04dc729418.bin.gz",
+      "start": 5000000,
+      "count": 50000,
+      "byteLength": 2104044,
+      "compressedBytes": 1090329
+    },
+    {
+      "file": "geometry-101.b1e09d1315118fff.bin.gz",
+      "start": 5050000,
+      "count": 50000,
+      "byteLength": 2138908,
+      "compressedBytes": 1114164
+    },
+    {
+      "file": "geometry-102.754fb32b465823ae.bin.gz",
+      "start": 5100000,
+      "count": 50000,
+      "byteLength": 2103596,
+      "compressedBytes": 1087344
+    },
+    {
+      "file": "geometry-103.75d09400981355b5.bin.gz",
+      "start": 5150000,
+      "count": 50000,
+      "byteLength": 2097412,
+      "compressedBytes": 1088010
+    },
+    {
+      "file": "geometry-104.75a154005a243c14.bin.gz",
+      "start": 5200000,
+      "count": 50000,
+      "byteLength": 2044596,
+      "compressedBytes": 1055193
+    },
+    {
+      "file": "geometry-105.cfc4f9933b9cb99d.bin.gz",
+      "start": 5250000,
+      "count": 50000,
+      "byteLength": 2102860,
+      "compressedBytes": 1084900
+    },
+    {
+      "file": "geometry-106.eaa1853469b79001.bin.gz",
+      "start": 5300000,
+      "count": 50000,
+      "byteLength": 2043204,
+      "compressedBytes": 1058314
+    },
+    {
+      "file": "geometry-107.9db0e380b50f18e2.bin.gz",
+      "start": 5350000,
+      "count": 50000,
+      "byteLength": 2096052,
+      "compressedBytes": 1090774
+    },
+    {
+      "file": "geometry-108.ab820cced6ab6180.bin.gz",
+      "start": 5400000,
+      "count": 50000,
+      "byteLength": 2184140,
+      "compressedBytes": 1138665
+    },
+    {
+      "file": "geometry-109.7d7bc00c843ed480.bin.gz",
+      "start": 5450000,
+      "count": 50000,
+      "byteLength": 2206924,
+      "compressedBytes": 1146293
+    },
+    {
+      "file": "geometry-110.df534bc768dd0b2c.bin.gz",
+      "start": 5500000,
+      "count": 50000,
+      "byteLength": 2211524,
+      "compressedBytes": 1154108
+    },
+    {
+      "file": "geometry-111.3c97ec77aa4b9074.bin.gz",
+      "start": 5550000,
+      "count": 50000,
+      "byteLength": 2063724,
+      "compressedBytes": 1075630
+    },
+    {
+      "file": "geometry-112.1b0411abafdf6f8c.bin.gz",
+      "start": 5600000,
+      "count": 50000,
+      "byteLength": 2062244,
+      "compressedBytes": 1069057
+    },
+    {
+      "file": "geometry-113.9148cba58e0a8b36.bin.gz",
+      "start": 5650000,
+      "count": 50000,
+      "byteLength": 2002452,
+      "compressedBytes": 1040794
+    },
+    {
+      "file": "geometry-114.9514955250066050.bin.gz",
+      "start": 5700000,
+      "count": 50000,
+      "byteLength": 1953164,
+      "compressedBytes": 1012690
+    },
+    {
+      "file": "geometry-115.fc1ec7e40fa7a8e6.bin.gz",
+      "start": 5750000,
+      "count": 50000,
+      "byteLength": 2060500,
+      "compressedBytes": 1069254
+    },
+    {
+      "file": "geometry-116.536d73dd26d4c371.bin.gz",
+      "start": 5800000,
+      "count": 50000,
+      "byteLength": 2007052,
+      "compressedBytes": 1031516
+    },
+    {
+      "file": "geometry-117.f2a2cc0b84a44312.bin.gz",
+      "start": 5850000,
+      "count": 50000,
+      "byteLength": 1936452,
+      "compressedBytes": 996589
+    },
+    {
+      "file": "geometry-118.c73795886d1484b7.bin.gz",
+      "start": 5900000,
+      "count": 50000,
+      "byteLength": 2072756,
+      "compressedBytes": 1076099
+    },
+    {
+      "file": "geometry-119.335d2e0da4481f30.bin.gz",
+      "start": 5950000,
+      "count": 50000,
+      "byteLength": 1956348,
+      "compressedBytes": 999619
+    },
+    {
+      "file": "geometry-120.da0b2df4924e4a2a.bin.gz",
+      "start": 6000000,
+      "count": 50000,
+      "byteLength": 2001812,
+      "compressedBytes": 1041851
+    },
+    {
+      "file": "geometry-121.714695c7db51cd0d.bin.gz",
+      "start": 6050000,
+      "count": 50000,
+      "byteLength": 1952612,
+      "compressedBytes": 998912
+    },
+    {
+      "file": "geometry-122.c4c5279df2352c5a.bin.gz",
+      "start": 6100000,
+      "count": 50000,
+      "byteLength": 1913532,
+      "compressedBytes": 968036
+    },
+    {
+      "file": "geometry-123.3066051853e257b6.bin.gz",
+      "start": 6150000,
+      "count": 50000,
+      "byteLength": 1929708,
+      "compressedBytes": 986941
+    },
+    {
+      "file": "geometry-124.1c3d35645d54bcb5.bin.gz",
+      "start": 6200000,
+      "count": 50000,
+      "byteLength": 1994516,
+      "compressedBytes": 1013882
+    },
+    {
+      "file": "geometry-125.e0bf44356837b35a.bin.gz",
+      "start": 6250000,
+      "count": 50000,
+      "byteLength": 2021252,
+      "compressedBytes": 1039392
+    },
+    {
+      "file": "geometry-126.2043f36003790d9e.bin.gz",
+      "start": 6300000,
+      "count": 50000,
+      "byteLength": 1986596,
+      "compressedBytes": 1021891
+    },
+    {
+      "file": "geometry-127.3321ed14a03cc61a.bin.gz",
+      "start": 6350000,
+      "count": 50000,
+      "byteLength": 1968556,
+      "compressedBytes": 1021278
+    },
+    {
+      "file": "geometry-128.977b1bf70186275e.bin.gz",
+      "start": 6400000,
+      "count": 50000,
+      "byteLength": 1793932,
+      "compressedBytes": 877639
+    },
+    {
+      "file": "geometry-129.d34fa2f40f74b9a1.bin.gz",
+      "start": 6450000,
+      "count": 50000,
+      "byteLength": 1968268,
+      "compressedBytes": 978792
+    },
+    {
+      "file": "geometry-130.72f79d7c04218c0f.bin.gz",
+      "start": 6500000,
+      "count": 50000,
+      "byteLength": 2090308,
+      "compressedBytes": 1077634
+    },
+    {
+      "file": "geometry-131.4e087b37e2584762.bin.gz",
+      "start": 6550000,
+      "count": 50000,
+      "byteLength": 2178908,
+      "compressedBytes": 1117237
+    },
+    {
+      "file": "geometry-132.bf418dc752b6e8e4.bin.gz",
+      "start": 6600000,
+      "count": 50000,
+      "byteLength": 2221148,
+      "compressedBytes": 1152005
+    },
+    {
+      "file": "geometry-133.f5b0f4710725cc14.bin.gz",
+      "start": 6650000,
+      "count": 50000,
+      "byteLength": 2166556,
+      "compressedBytes": 1130804
+    },
+    {
+      "file": "geometry-134.9f551b70f723540d.bin.gz",
+      "start": 6700000,
+      "count": 50000,
+      "byteLength": 2158476,
+      "compressedBytes": 1122475
+    },
+    {
+      "file": "geometry-135.06cdb6ab402ada81.bin.gz",
+      "start": 6750000,
+      "count": 50000,
+      "byteLength": 2175868,
+      "compressedBytes": 1121529
+    },
+    {
+      "file": "geometry-136.4acc556ebd9e3bbe.bin.gz",
+      "start": 6800000,
+      "count": 50000,
+      "byteLength": 2019164,
+      "compressedBytes": 1048678
+    },
+    {
+      "file": "geometry-137.b7052b852dbb4656.bin.gz",
+      "start": 6850000,
+      "count": 50000,
+      "byteLength": 2089932,
+      "compressedBytes": 1088790
+    },
+    {
+      "file": "geometry-138.48f51bdf80376d60.bin.gz",
+      "start": 6900000,
+      "count": 50000,
+      "byteLength": 2296740,
+      "compressedBytes": 1212919
+    },
+    {
+      "file": "geometry-139.355bce11b94d6b26.bin.gz",
+      "start": 6950000,
+      "count": 50000,
+      "byteLength": 2051212,
+      "compressedBytes": 1072634
+    },
+    {
+      "file": "geometry-140.4aaa81be2615ba7a.bin.gz",
+      "start": 7000000,
+      "count": 50000,
+      "byteLength": 2123364,
+      "compressedBytes": 1119514
+    },
+    {
+      "file": "geometry-141.0743bdcd6ef7ea30.bin.gz",
+      "start": 7050000,
+      "count": 50000,
+      "byteLength": 2169740,
+      "compressedBytes": 1147884
+    },
+    {
+      "file": "geometry-142.2e73ecba63de38ed.bin.gz",
+      "start": 7100000,
+      "count": 50000,
+      "byteLength": 2195124,
+      "compressedBytes": 1162925
+    },
+    {
+      "file": "geometry-143.e442044605b169ad.bin.gz",
+      "start": 7150000,
+      "count": 50000,
+      "byteLength": 2162292,
+      "compressedBytes": 1147647
+    },
+    {
+      "file": "geometry-144.bf4782012d3c2130.bin.gz",
+      "start": 7200000,
+      "count": 50000,
+      "byteLength": 2242204,
+      "compressedBytes": 1188477
+    },
+    {
+      "file": "geometry-145.d401891791a328fd.bin.gz",
+      "start": 7250000,
+      "count": 50000,
+      "byteLength": 2245220,
+      "compressedBytes": 1191641
+    },
+    {
+      "file": "geometry-146.952df1781f5518d0.bin.gz",
+      "start": 7300000,
+      "count": 50000,
+      "byteLength": 2240172,
+      "compressedBytes": 1183370
+    },
+    {
+      "file": "geometry-147.e894ac0237bbe2f9.bin.gz",
+      "start": 7350000,
+      "count": 50000,
+      "byteLength": 2221332,
+      "compressedBytes": 1178681
+    },
+    {
+      "file": "geometry-148.737da946714a81d8.bin.gz",
+      "start": 7400000,
+      "count": 50000,
+      "byteLength": 2002556,
+      "compressedBytes": 1057840
+    },
+    {
+      "file": "geometry-149.3dfd65465668f9e1.bin.gz",
+      "start": 7450000,
+      "count": 50000,
+      "byteLength": 1997780,
+      "compressedBytes": 1068214
+    },
+    {
+      "file": "geometry-150.1facc2cb9abed175.bin.gz",
+      "start": 7500000,
+      "count": 50000,
+      "byteLength": 2087700,
+      "compressedBytes": 1111047
+    },
+    {
+      "file": "geometry-151.2e9202b045bda52c.bin.gz",
+      "start": 7550000,
+      "count": 50000,
+      "byteLength": 2128220,
+      "compressedBytes": 1115888
+    },
+    {
+      "file": "geometry-152.0052a819e6c9eda3.bin.gz",
+      "start": 7600000,
+      "count": 50000,
+      "byteLength": 2095468,
+      "compressedBytes": 1091235
+    },
+    {
+      "file": "geometry-153.9028d4bed76b44ea.bin.gz",
+      "start": 7650000,
+      "count": 50000,
+      "byteLength": 2062332,
+      "compressedBytes": 1068206
+    },
+    {
+      "file": "geometry-154.8ca16b2e0d992d15.bin.gz",
+      "start": 7700000,
+      "count": 50000,
+      "byteLength": 1997012,
+      "compressedBytes": 1041888
+    },
+    {
+      "file": "geometry-155.9214dde5eaca35df.bin.gz",
+      "start": 7750000,
+      "count": 50000,
+      "byteLength": 1905756,
+      "compressedBytes": 986618
+    },
+    {
+      "file": "geometry-156.d3d19c8e132376a7.bin.gz",
+      "start": 7800000,
+      "count": 50000,
+      "byteLength": 1991172,
+      "compressedBytes": 1043549
+    },
+    {
+      "file": "geometry-157.0f574c11fa72757e.bin.gz",
+      "start": 7850000,
+      "count": 50000,
+      "byteLength": 2002132,
+      "compressedBytes": 1042473
+    },
+    {
+      "file": "geometry-158.09ff79ca1a67d45b.bin.gz",
+      "start": 7900000,
+      "count": 50000,
+      "byteLength": 2015436,
+      "compressedBytes": 1043125
+    },
+    {
+      "file": "geometry-159.7c7a84e100662a74.bin.gz",
+      "start": 7950000,
+      "count": 50000,
+      "byteLength": 2158108,
+      "compressedBytes": 1125766
+    },
+    {
+      "file": "geometry-160.358d7ba0dc542dd5.bin.gz",
+      "start": 8000000,
+      "count": 50000,
+      "byteLength": 2099596,
+      "compressedBytes": 1101635
+    },
+    {
+      "file": "geometry-161.5929c77b72932d29.bin.gz",
+      "start": 8050000,
+      "count": 50000,
+      "byteLength": 1959156,
+      "compressedBytes": 1020401
+    },
+    {
+      "file": "geometry-162.c4c5b3b2cc5b4778.bin.gz",
+      "start": 8100000,
+      "count": 50000,
+      "byteLength": 1823828,
+      "compressedBytes": 941190
+    },
+    {
+      "file": "geometry-163.12067d14ba4a8900.bin.gz",
+      "start": 8150000,
+      "count": 50000,
+      "byteLength": 1977316,
+      "compressedBytes": 1033539
+    },
+    {
+      "file": "geometry-164.cf9b20bccefe50d2.bin.gz",
+      "start": 8200000,
+      "count": 50000,
+      "byteLength": 1892764,
+      "compressedBytes": 972507
+    },
+    {
+      "file": "geometry-165.c8007c41c2434094.bin.gz",
+      "start": 8250000,
+      "count": 50000,
+      "byteLength": 1786772,
+      "compressedBytes": 923732
+    },
+    {
+      "file": "geometry-166.0e18efeaa2fb807b.bin.gz",
+      "start": 8300000,
+      "count": 50000,
+      "byteLength": 1855628,
+      "compressedBytes": 973778
+    },
+    {
+      "file": "geometry-167.4c73ddaca19629f7.bin.gz",
+      "start": 8350000,
+      "count": 50000,
+      "byteLength": 1822396,
+      "compressedBytes": 958857
+    },
+    {
+      "file": "geometry-168.7faa80e030995835.bin.gz",
+      "start": 8400000,
+      "count": 50000,
+      "byteLength": 1782628,
+      "compressedBytes": 919655
+    },
+    {
+      "file": "geometry-169.ce88385846212a84.bin.gz",
+      "start": 8450000,
+      "count": 50000,
+      "byteLength": 1821468,
+      "compressedBytes": 938452
+    },
+    {
+      "file": "geometry-170.832dd15ca7a2ea21.bin.gz",
+      "start": 8500000,
+      "count": 50000,
+      "byteLength": 1760380,
+      "compressedBytes": 910443
+    },
+    {
+      "file": "geometry-171.e20f5db2fc6ca998.bin.gz",
+      "start": 8550000,
+      "count": 50000,
+      "byteLength": 1757412,
+      "compressedBytes": 903738
+    },
+    {
+      "file": "geometry-172.6ce8f95febbd42c8.bin.gz",
+      "start": 8600000,
+      "count": 50000,
+      "byteLength": 1989772,
+      "compressedBytes": 1013747
+    },
+    {
+      "file": "geometry-173.f9cfc71096e5580b.bin.gz",
+      "start": 8650000,
+      "count": 50000,
+      "byteLength": 1842820,
+      "compressedBytes": 948613
+    },
+    {
+      "file": "geometry-174.3a1c25d06a7844e4.bin.gz",
+      "start": 8700000,
+      "count": 50000,
+      "byteLength": 1862324,
+      "compressedBytes": 963039
+    },
+    {
+      "file": "geometry-175.3b223053e4e0dcbf.bin.gz",
+      "start": 8750000,
+      "count": 50000,
+      "byteLength": 1817980,
+      "compressedBytes": 948012
+    },
+    {
+      "file": "geometry-176.cbcce33838f8a48e.bin.gz",
+      "start": 8800000,
+      "count": 50000,
+      "byteLength": 1739668,
+      "compressedBytes": 902990
+    },
+    {
+      "file": "geometry-177.872014dd188e940c.bin.gz",
+      "start": 8850000,
+      "count": 50000,
+      "byteLength": 1807140,
+      "compressedBytes": 932411
+    },
+    {
+      "file": "geometry-178.745976293dede9a8.bin.gz",
+      "start": 8900000,
+      "count": 50000,
+      "byteLength": 1840508,
+      "compressedBytes": 950538
+    },
+    {
+      "file": "geometry-179.f7cabb87ebe9e6ae.bin.gz",
+      "start": 8950000,
+      "count": 50000,
+      "byteLength": 1740220,
+      "compressedBytes": 900136
+    },
+    {
+      "file": "geometry-180.19e9df5b5f9c5201.bin.gz",
+      "start": 9000000,
+      "count": 50000,
+      "byteLength": 1798980,
+      "compressedBytes": 926817
+    },
+    {
+      "file": "geometry-181.9b324e25200e2bbe.bin.gz",
+      "start": 9050000,
+      "count": 50000,
+      "byteLength": 1786868,
+      "compressedBytes": 915621
+    },
+    {
+      "file": "geometry-182.f1ac88e9f16e7b5c.bin.gz",
+      "start": 9100000,
+      "count": 50000,
+      "byteLength": 1749732,
+      "compressedBytes": 902077
+    },
+    {
+      "file": "geometry-183.6278f9e011b00a0c.bin.gz",
+      "start": 9150000,
+      "count": 50000,
+      "byteLength": 1804996,
+      "compressedBytes": 931978
+    },
+    {
+      "file": "geometry-184.403586f8b3b49026.bin.gz",
+      "start": 9200000,
+      "count": 50000,
+      "byteLength": 1804300,
+      "compressedBytes": 932592
+    },
+    {
+      "file": "geometry-185.82aa34841158e25e.bin.gz",
+      "start": 9250000,
+      "count": 50000,
+      "byteLength": 1731308,
+      "compressedBytes": 892617
+    },
+    {
+      "file": "geometry-186.55ca61fcf31f5cce.bin.gz",
+      "start": 9300000,
+      "count": 50000,
+      "byteLength": 1837452,
+      "compressedBytes": 937233
+    },
+    {
+      "file": "geometry-187.f2b40ef61305557e.bin.gz",
+      "start": 9350000,
+      "count": 50000,
+      "byteLength": 1736676,
+      "compressedBytes": 887204
+    },
+    {
+      "file": "geometry-188.fa76bf3801abb2d8.bin.gz",
+      "start": 9400000,
+      "count": 50000,
+      "byteLength": 1701900,
+      "compressedBytes": 870448
+    },
+    {
+      "file": "geometry-189.70bc71dd3a7f20aa.bin.gz",
+      "start": 9450000,
+      "count": 50000,
+      "byteLength": 1692404,
+      "compressedBytes": 878848
+    },
+    {
+      "file": "geometry-190.c2ec5f758916a9b9.bin.gz",
+      "start": 9500000,
+      "count": 26414,
+      "byteLength": 916828,
+      "compressedBytes": 473161
+    }
+  ],
+  "maxSegmentMetres": 250,
+  "missingLimitEdgeCount": 12626592,
+  "limitations": {
+    "acceptedWays": 4890193,
+    "conditionalWays": 28902,
+    "excludedAccessWays": 637424,
+    "viaWayTurnRestrictions": 3764,
+    "conditionalTurnRestrictions": 71,
+    "unresolvedTurnRestrictions": 3070
+  },
+  "coverage": "UK public-car highway network including Northern Ireland; excludes ferries, Isle of Man and Channel Islands",
+  "inferredLimitPolicy": "Wales urban20; other UK urban30; motorway/link70; rural60 mph. Urban heuristic residential/living_street/service or lit=yes. Flag bit0 marks every inferred edge.",
+  "totalCompressedBytes": 404160611,
+  "initialCompressedBytes": 213428423,
+  "assetNaming": "SHA-256 content hash prefix (16 hex characters)"
+}

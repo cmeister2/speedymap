@@ -1,0 +1,8 @@
+This derived routing database contains OpenStreetMap data.
+Copyright OpenStreetMap contributors; https://www.openstreetmap.org/copyright
+Database licensed under the Open Data Commons Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+Source: https://download.geofabrik.de/europe/united-kingdom-261003.osm.pbf
+Source data date: 2026-10-03T20:20:50Z
+The complete derived database is supplied in this directory.
+Rebuild with scripts/download_osm.py and scripts/build_graph.py; see DATA_FORMAT.md.
