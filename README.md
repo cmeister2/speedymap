@@ -58,7 +58,7 @@ gh repo create speedymap --public --source=. --remote=origin --push
 
 Alternatively, create an empty repository on GitHub, add its URL as the `origin` remote and push the default branch. Select **Settings > Pages > Build and deployment > Source: GitHub Actions**. See GitHub's [publishing setup](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). If the first workflow ran before Pages was enabled, rerun it from the Actions tab.
 
-The included workflow installs dependencies, runs the routing tests, builds the app, checks the database, precomputed default journey and site size, and deploys `dist/`. Only the default branch deploys; pull requests and other branches run the checks. Normal deployments reuse the checked-in road database and default journey.
+The included workflow runs on pushes to `main`, pull requests and manual runs. It installs dependencies, runs the routing tests, builds the app, checks the database, precomputed default journey and site size, and deploys `dist/`. Only the default branch deploys; pull requests run the checks. The final `Success` job requires a successful build and any expected deployment. Normal deployments reuse the checked-in road database and default journey.
 
 To refresh the roads, open **Actions > Build and deploy Speedymap > Run workflow** on the default branch and enable **Refresh the UK road database before publishing**. The workflow downloads the latest OpenStreetMap extract, rebuilds the graph and recalculates the default journey. It does not commit generated files. Later normal deployments use the committed snapshot. To keep a refresh, rebuild locally and commit `public/data` and `public/default-route.json.gz`.
 

@@ -2,6 +2,7 @@ name: Build and deploy Speedymap
 
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
     inputs:
@@ -166,3 +167,23 @@ jobs:
       - name: Deploy static site
         id: deployment
         uses: actions/deploy-pages@v4
+
+  success:
+    name: Success
+    if: ${{ always() }}
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify build and deployment results
+        env:
+          BUILD_RESULT: ${{ needs.build.result }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+          DEPLOY_REQUIRED: ${{ github.event_name != 'pull_request' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
+        run: |
+          test "$BUILD_RESULT" = "success"
+          if [ "$DEPLOY_REQUIRED" = "true" ]; then
+            test "$DEPLOY_RESULT" = "success"
+          else
+            test "$DEPLOY_RESULT" = "skipped"
+          fi
